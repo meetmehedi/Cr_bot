@@ -1,12 +1,15 @@
 import speech_recognition as sr
 
 def recognize_speech():
-    recognizer = sr.Recognizer()
+    r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening...")
-        audio = recognizer.listen(source, timeout=5)
+        audio = r.listen(source)
     try:
-        text = recognizer.recognize_google(audio, language="bn-BD")
+        text = r.recognize_google(audio, language="bn-BD")  # বাংলা ভাষায়
+        print(f"Recognized: {text}")
         return text
-    except Exception as e:
-        return "দুঃখিত, বুঝতে পারিনি। আবার চেষ্টা করুন।"
+    except sr.UnknownValueError:
+        return "শোনার সমস্যা হয়েছে, আবার বলুন।"
+    except sr.RequestError:
+        return "সার্ভার সমস্যা হয়েছে।"
