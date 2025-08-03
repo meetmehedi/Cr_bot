@@ -1,0 +1,202 @@
+{
+  "routine": {
+    "Saturday": [
+      {
+        "course": "Microprocessor and Assembly Language",
+        "teacher": "Abdullah al Mamun siam ",
+        "course code": "0613-207",
+        "time": "09:45-11:00",
+        "room": "704, 6th Floor"
+      },
+      {
+        "course": "Algorithms",
+        "teacher": "Mazharul Hasan",
+        "course code": "0613-205",
+        "time": "11:00-12:15",
+        "room": "704, 6th Floor"
+      },
+      {
+        "course": "Compiler Design",
+        "teacher": "Md. Ayon Mia",
+        "course code": "0613-209",
+        "time": "12:15-1:30",
+        "room": "704, 6th Floor"
+      }
+    ],
+    "Sunday": [
+      {
+        "course": "Algorithms",
+        "teacher": "Mazharul Hasan",
+        "course code": "0613-205",
+        "time": "08:30-09:45",
+        "room": "704, 6th Floor"
+      },
+      {
+        "course": "Microprocessor and Assembly Language",
+        "teacher": "Abdullah al Mamun siam ",
+        "course code": "0613-207",
+        "time": "09:45-11:00",
+        "room": "704, 6th Floor"
+      },
+      {
+        "course": "Statistical methods and Probability",
+        "teacher": "Md. Sifuzzaman",
+        "course code": "0542-202",
+        "time": "11:00-12:15",
+        "room": "704, 6th Floor"
+      },
+      {
+        "course": "Digital Logic Design",
+        "teacher": "Md. Shakil Sarker",
+        "course code": "0713-203",
+        "time": "12:15-01:30",
+        "room": "704, 6th Floor"
+      }
+    ],
+    "Wednesday": [
+      {
+        "course": "Microprocessor and Assembly Language Lab",
+        "teacher": "Abdullah al Mamun siam ",
+        "course code": "0613-208",
+        "time": "10:00-11:40",
+        "room": "Lab 1, 4th Floor"
+      },
+      {
+        "course": "Digital Logic Design",
+        "teacher": "Md. Shakil Sarker",
+        "course code": "0713-204",
+        "time": "11:40-01:20",
+        "room": "Lab 409, 3rd Floor"
+      },
+      {
+        "course": "Algorithms lab",
+        "teacher": "Mazharul Hasan",
+        "course code": "0613-206",
+        "time": "08:30-09:45",
+        "room": "Lab 4, 4th Floor"
+      }
+    ],
+    "Thursday": [
+      {
+        "course": "Compiler Design",
+        "teacher": "Md. Ayon Mia",
+        "course code": "0613-209",
+        "time": "08:30-09:45",
+        "room": "704, 6th Floor"
+      },
+      {
+        "course": "Business Strategy Management",
+        "teacher": "Dr. Shameem Ahmed",
+        "course code": "0413-202",
+        "time": "09:45-11:00",
+        "room": "Lab 409, 3rd Floor"
+      },
+      {
+        "course": "Statistical methods and Probability",
+        "teacher": "Md. Sifuzzaman",
+        "course code": "0542-202",
+        "time": "11:00-12:15",
+        "room": "704, 6th Floor"
+      },
+      {
+        "course": "Digital Logic Design",
+        "teacher": "Md. Shakil Sarker",
+        "course code": "0713-203",
+        "time": "12:15-01:30",
+        "room": "Lab 409, 3rd Floor"
+      }
+    ]
+  },
+  "teachers": {
+    "Mazharul Hasan": {
+      "designation": "Lecturer",
+      "room": "Teacher's Lounge, 10th Floor"
+    },
+    "Md. Shakil Sarker": {
+      "designation": "Lecturer",
+      "room": "Teacher's Lounge, 10th Floor"
+    },
+    "Md. Ayon Mia": {
+      "designation": "Lecturer",
+      "room": "Teacher's Lounge, 10th Floor"
+    },
+    "Md. Sifuzzaman": {
+      "designation": "Assistant Professor",
+      "room": "Teacher's Lounge, 4th Floor"
+    },
+    "Abdullah al Mamun siam": {
+      "designation": "Lecturer",
+      "room": "Teacher's Lounge, 10th Floor"
+    },
+    "Dr. Shameem Ahmed": {
+      "designation": "Assistant Professor",
+      "room": "Teacher's Lounge, 5th Floor"
+    }
+  },
+  "Presentation": [
+    {
+      "title": "Tpoic: Student's Choice",
+      "course": "Compiler Design",
+      "date": "7th october 2023",
+      "time": "08:30-09:45",
+      "venue": "Room 704, 6th Floor",
+      "teacher": "Md. Ayon Mia",
+      "participants": [
+        "group C",
+        "group D",
+        "group E",
+        "group F"
+      ]
+    },
+    {
+      "title": "Topic: Application of statistics in Engineering",
+      "course": "Statistical methods and Probability",
+      "date": "10th october 2023",
+      "time": "11:00-12:15",
+      "venue": "Room 704, 6th Floor",
+      "teacher": "Md. Sifuzzaman",
+      "participants": [
+        "group A",
+        "group B",
+        "group C",
+        "group D",
+        "group E",
+        "group F",
+        "group G",
+        "group H"
+      ]
+    }
+  ],
+  "Assignment": [
+    {
+      "title": "Topic: Application of statistics in Engineering",
+      "course": "Statistical methods and Probability",
+      "due_date": "10th October 2023",
+      "submission_method": "Offline, Handwritten Hard copy",
+      "teacher": "Md. Sifuzzaman"
+    },
+    {
+      "title": "Topic: Business Analysis",
+      "course": "Business Strategy Management",
+      "due_date": "12th October 2023",
+      "submission_method": "Offline, Handwritten Hard copy",
+      "teacher": "Dr. Shameem Ahmed"
+    }
+  ],
+  "lab report": [
+    {
+      "title": "Check out goggle classroom for details",
+      "course": "Microprocessor and Assembly Language",
+      "due_date": "6th October 2023",
+      "submission_method": "Offline, Handwritten Hard copy",
+      "teacher": "Abdullah al Mamun siam"
+    },
+    {
+      "title": "Check out goggle classroom for details",
+      "course": "Algorithms",
+      "due_date": "13th October 2023",
+      "submission_method": "Offline, Printed Soft copy",
+      "teacher": "Mazharul Hasan"
+    }
+  ]
+}
