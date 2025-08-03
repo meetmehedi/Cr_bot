@@ -3,3 +3,5 @@ SpeechRecognition
 pyaudio
 vosk
 sounddevice
+SpeechRecognition
+streamlit
