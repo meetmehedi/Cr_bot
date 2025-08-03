@@ -16,12 +16,17 @@ def get_routine(data):
     for day, classes in routine.items():
         msg += f"\n🗓️ {day}:\n"
         for c in classes:
-            msg += f"  🕒 {c['time']}: {c['course']} ({c['room']})\n"
+            # Optional: Validate keys exist before accessing
+            time = c.get('time', 'সময় জানা নেই')
+            course = c.get('course', 'কোর্স জানা নেই')
+            room = c.get('room', 'রুম জানা নেই')
+            msg += f"  🕒 {time}: {course} ({room})\n"
     return msg.strip()
 
 def get_teacher_room(data):
     teachers = data.get("teachers", {})
     msg = "👨‍🏫 স্যারদের রুম নম্বর:\n"
     for name, info in teachers.items():
-        msg += f"  {name}: Room {info['room']}\n"
+        room = info.get('room', 'রুম জানা নেই')
+        msg += f"  {name}: Room {room}\n"
     return msg.strip()
