@@ -1,4 +1,5 @@
 streamlit
-speechrecognition
-pyaudio
 SpeechRecognition
+pyaudio
+vosk
+sounddevice
